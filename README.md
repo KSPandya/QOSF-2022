@@ -17,5 +17,8 @@ Properties -
 8. Column vectors have been normalized.
 9. All opeartions performed for 1 layer and 4 layers of the arcitecture.
 
-
+The results obtained are - 
 ![image](https://user-images.githubusercontent.com/101512789/158073827-bd1ac9a2-3f0e-46fb-9daf-ce7d590f534c.png)
+1. Overall, the best combination of encoding and choosing good ansatz in this case has been achieved using mix of `Angle and Amplitude Embedding`, which gave the test accuracy of `1.0` in the simplest case with only 1 Basic entanglement layer. This can be because the circuit has been perfectly fit by training and validation data. Even other strategies of this combination gave nearly perfect results.  All amplitude embedding can also be said to be partially successful as it also gives values close to  `0.9` in few cases.
+2. However, the combination with `Basis embedding` and `IQP4` haven't shown any great results. These results can be improved further by trying various other layers, parameters,etc.
+3. Some other techniques like `QAOAEmbedding`, `SimplifiedTwoDesign`, etc. haven't been considered to keep the structure simple and thorough.
