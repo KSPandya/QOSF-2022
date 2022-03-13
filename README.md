@@ -18,3 +18,4 @@ Properties -
 9. All opeartions performed for 1 layer and 4 layers of the arcitecture.
 
 
+![image](https://user-images.githubusercontent.com/101512789/158073827-bd1ac9a2-3f0e-46fb-9daf-ce7d590f534c.png)
